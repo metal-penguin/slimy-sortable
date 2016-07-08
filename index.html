@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<html lang="ja">
+<meta charset="UTF-8" />
+<title>Slimy Sortable</title>
+<link rel="stylesheet" type="text/css" media="screen,print" href="src/slimy-sortable.css" />
+<style>
+#wrap {
+    position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+ul li {
+    cursor: move;
+    margin: 0 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 12px;
+    height: 18px;
+}
+ul li span {
+    position: absolute;
+    margin-left: -1.3em;
+}
+</style>
+</head>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
+<script type="text/javascript" src="http://jsdo.it/lib/jquery-2.1.0/js"></script>
+<script type="text/javascript" src="http://jsdo.it/lib/jquery-ui-1.10.4/js"></script>
+<script type="text/javascript" src="src/slimy-sortable.js"></script>
+<script>
+$(function() {
+    $("#sortable").slimySortable();
+});
+</script>
+<body>
+    <div id="wrap">
+        <ul id="sortable" class="sortable">
+          <li id="item-1" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 1</li>
+          <li id="item-2" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 2</li>
+          <li id="item-3" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 3</li>
+          <li id="item-4" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 4</li>
+          <li id="item-5" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 5</li>
+          <li id="item-6" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 6</li>
+          <li id="item-7" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 7</li>
+        </ul>
+    </div>
+</body>
+</html>
