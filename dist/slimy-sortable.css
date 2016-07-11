@@ -1,0 +1,14 @@
+.slimy-background {
+  opacity: 0;
+}
+ul.slimy-visible{
+  position: absolute;
+  z-index: -1
+}
+.placeholder {
+  border:1px dotted #faa473;
+  background-color: #ffeeba;
+  height: 18px;
+  opacity: 0.5;
+  z-index: -1;
+}
