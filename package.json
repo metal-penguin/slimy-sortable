@@ -1,0 +1,23 @@
+{
+  "name": "Slimy Sortable",
+  "version": "1.0.0",
+  "description": "Slimy To move the list.",
+  "main": "dist/slimy-sortable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metal-penguin/slimy-sortable.git"
+  },
+  "author": "metal-penguin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metal-penguin/slimy-sortable/issues"
+  },
+  "homepage": "https://github.com/metal-penguin/slimy-sortable",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^1.5.4"
+  }
+}
