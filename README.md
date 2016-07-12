@@ -1,4 +1,4 @@
-# slimy-sortable
+# Slimy Sortable
 Slimy to move the list.
 [Demo page.](http://jsdo.it/metal-penguin/AcOy)
 
