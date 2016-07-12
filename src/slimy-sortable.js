@@ -12,7 +12,7 @@
       opacity: 0.6,
       zIndex: 99999,
       revert: true,
-      placeholder: "placeholder",
+      placeholder: null,
     }, options);
 
     self.disableSelection();

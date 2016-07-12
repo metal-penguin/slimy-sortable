@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html>
-<head>
 <html lang="ja">
+<head>
 <meta charset="UTF-8" />
 <title>Slimy Sortable</title>
 <link rel="stylesheet" type="text/css" media="screen,print" href="../dist/slimy-sortable.css" />
@@ -29,9 +28,10 @@ ul li span {
 }
 </style>
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
-<script type="text/javascript" src="http://jsdo.it/lib/jquery-2.1.0/js"></script>
-<script type="text/javascript" src="http://jsdo.it/lib/jquery-ui-1.10.4/js"></script>
-<script type="text/javascript" src="../dist/slimy-sortable.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="../dist/slimy-sortable.min.js"></script>
 <script>
 $(function() {
     $("#sortable").slimySortable();
@@ -40,7 +40,7 @@ $(function() {
 </head>
 <body>
     <div id="wrap">
-        <ul id="sortable" class="sortable">
+        <ul id="sortable">
           <li id="item-1" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 1</li>
           <li id="item-2" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 2</li>
           <li id="item-3" class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>list 3</li>

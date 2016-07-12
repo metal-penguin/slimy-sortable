@@ -1,17 +1,37 @@
 # slimy-sortable
-Slimy To move the list.
+Slimy to move the list.
 
-## Installation
+## Installation and Usage
+Getting Started
 ```code
+<link rel="stylesheet" type="text/css" media="screen,print" href="../dist/slimy-sortable.css" />
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
-<script type="text/javascript" src="http://jsdo.it/lib/jquery-2.1.0/js"></script>
-<script type="text/javascript" src="http://jsdo.it/lib/jquery-ui-1.10.4/js"></script>
-<script type="text/javascript" src="src/slimy-sortable.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="http://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../dist/slimy-sortable.min.js"></script>
 ```
 
-To Slimy.
+javascript
 ```code
 $(function() {
     $("#sortable").slimySortable();
+});
+```
+html
+```code
+<ul id="sortable">
+  <li id="item-1">list 1</li>
+  <li id="item-2">list 2</li>
+  <li id="item-3">list 3</li>
+</ul>
+```
+
+Options available is equivalent to the sortable plugin jquery ui.
+https://jqueryui.com/sortable/
+```code
+$(function() {
+    $("#sortable").slimySortable({
+      placeholder: "placeholder"
+    });
 });
 ```
