@@ -1,6 +1,6 @@
 # slimy-sortable
 Slimy to move the list.
-[Demo page.](http://jsdo.it/blogparts/AcOy/js)
+[Demo page.](http://jsdo.it/metal-penguin/AcOy)
 
 ## Installation and Usage
 Getting Started
